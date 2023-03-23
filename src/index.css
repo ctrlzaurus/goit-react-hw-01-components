@@ -1,4 +1,10 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
+
+@import './components/profile/Profile.module.css';
+@import './components/statistics/Statistics.module.css';
+@import './components//friendList/FriendList.module.css';
+@import './components/transactions/TransactionHistory.module.css';
+
 
 body {
   margin: 0;
@@ -12,4 +18,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2,
+ul,
+li,
+p {
+  margin: 0 0;
+  padding: 0 0;
 }
